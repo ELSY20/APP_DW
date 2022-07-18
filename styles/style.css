@@ -1,0 +1,198 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #ece5c7;
+}
+
+a {
+  color: #495371;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}
+
+.container_homepage {
+  background-color: #fff;
+  height: 40rem;
+  border-radius: 1rem;
+}
+
+.Table {
+  height: 50vh;
+  padding-bottom: 4rem;
+}
+
+.Table .number {
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80rem;
+}
+
+thead {
+  text-align: center;
+  width: 100%;
+}
+
+thead th {
+  padding: 1rem 0.5rem;
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  background-color: #92b4ec;
+}
+
+tbody {
+  width: 100%;
+}
+
+tbody td {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.contenido {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container header {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  width: 40rem;
+}
+
+.container form {
+  margin-top: 16px;
+  overflow: hidden;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-field {
+  display: flex;
+  width: calc(100% / 3 - 15px);
+  flex-direction: column;
+  margin: 4px 0;
+}
+
+.subgrupo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.gr {
+  width: 19.5rem;
+}
+
+.name {
+  width: 40rem;
+}
+
+.name textarea {
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  outline: none;
+  border: 1px solid #aaa;
+  min-height: 6rem;
+}
+
+.botonGuardar {
+  width: 40rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  margin-top: 2rem;
+  background-color: #36ae7c;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-field label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #2e2e2e;
+}
+.input-field input,
+select {
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  padding: 0 15px;
+  height: 42px;
+  margin: 8px 0;
+}
+.input-field input :focus,
+.input-field select:focus {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+.input-field select,
+.input-field input[type="date"] {
+  color: #707070;
+}
+.input-field input[type="date"]:valid {
+  color: #333;
+}
+
+.btn {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-success {
+  background-color: #36ae7c;
+}
+
+.btn-danger{
+  background-color: #f44336;
+}
+.btn-info{
+  background-color: #2196f3;
+}
+
